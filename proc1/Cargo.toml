@@ -1,0 +1,14 @@
+[package]
+name = "proc1"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[dependencies.libk]
+path = "../libk"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
