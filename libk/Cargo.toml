@@ -1,0 +1,12 @@
+[package]
+name = "libk"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+spin = "0.5.2"
+
+[dependencies.lazy_static]
+version = "1.0"
+features = ["spin_no_std"]
